@@ -1,0 +1,6 @@
+#!/bin/bash
+# Creates the structure for a new web app.
+
+PROJECT=${1:-javascript}
+
+cp -R /home/student/bsilva/bin/skel_js $PROJECT
