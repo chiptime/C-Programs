@@ -1,0 +1,8 @@
+#include <stdio.h>
+#include <stlib.h>
+
+int main(){
+
+    printf("\x1B[31m12\x1B[39m\n");
+    return 0;
+}
